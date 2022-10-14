@@ -8,10 +8,13 @@ source venv/bin/activate # Вход в виртуального окружени
 
 # Устанавливаем необходимые библиотеки 
 pip3 install Django==3.2 # фремйворк джанго
+
 pip3 install djangorestframework==3.12.4 # приложение для rest api
+
 pip3 install drf-yasg==1.21.4 # приложение для автоматического создания сваггера
 
 django-admin startproject pairwase_sum # создание проекта
+
 python3 manage.py startapp api # создание приложения (внутри папки проекта)
 
 # По окончанию работы с проектом выходим из виртуального окружения в директории, где лежит папка venv
